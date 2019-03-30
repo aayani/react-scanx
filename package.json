@@ -1,0 +1,33 @@
+{
+  "name": "react-scanx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wahaj",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js && uglifyjs index.js -o index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "uglify-js": "^3.5.2"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "quagga": "^0.12.1",
+    "react": "^16.8.6"
+  }
+}
