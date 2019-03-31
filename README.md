@@ -1,6 +1,6 @@
 # react-scanx
 
-[![dependencies](https://david-dm.org/aayani/react-scanx.svg)](https://david-dm.org/aayani/react-scanx) [![devDependencies](https://david-dm.org/aayani/react-scanx/dev-status.svg)](https://david-dm.org/aayani/react-scanx?type=dev)
+[![dependencies](https://david-dm.org/aayani/react-scanx.svg)](https://david-dm.org/aayani/react-scanx) [![devDependencies](https://david-dm.org/aayani/react-scanx/dev-status.svg)](https://david-dm.org/aayani/react-scanx?type=dev)<br/>
 A [React Component](https://reactjs.org/docs/react-component.html) for scanning bar codes.
 
 ## Installation
